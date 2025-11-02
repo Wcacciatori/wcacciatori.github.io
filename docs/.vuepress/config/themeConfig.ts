@@ -33,7 +33,6 @@ export default <VdoingThemeConfig>{
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428741.jpg',
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428739.jpg',
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428738.jpg',
-    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428737.jpg',
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428736.jpg',
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428735.jpg',
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428734.jpg',
