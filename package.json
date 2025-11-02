@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-learn",
+  "name": "wjy_blog",
   "version": "1.0.0",
-  "description": "学习VuePress用的项目",
+  "description": "wjy的博客",
   "main": "index.js",
   "scripts": {
     "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --temp .temp",
@@ -9,7 +9,7 @@
     "deploy": "npm run docs:build && bash ./deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "peterjxl@qq.com",
+  "author": "2786484775@qq.com",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.8",
