@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: null
-heroText: 因你而在的
+heroText: wjy's Blog
 tagline: 永远追寻浪漫与自由
 actionText: null
 actionLink: /about.md
