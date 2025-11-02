@@ -53,7 +53,7 @@ export default <VdoingThemeConfig>{
     bgTimeColor: true,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
     bgTimeColorArray: ['transparent', 'transparent', 'rgba(0, 0, 0, .5)', 'rgba(0, 0, 0, .5)'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效。提示：如果不想要这个效果，但是又想要时间窗口提示效果，则改为 ['transparent', 'transparent', 'transparent', 'transparent']
     descFade: true,   // 是否开启图片中间描述的淡入效果，默认为 false
-    desc: ["淡泊而明志，宁静以致远", "跟随内心的指引，勇敢地做自己", "记者问，你人生中喜欢这么多东西，做过很多项目，但是都没有做大，也没有加入独角兽公司，你怎么想？  KK 回答，我只是追随自己的兴趣，不管什么事情，只要我觉得有意思，就想去做。我不追求目的地，我追求的是内心的方向。","如果给我再来一次的机会，我绝对不会提前进组"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFade 为 true 生效
+    desc: ["淡泊而明志，宁静以致远", "跟随内心的指引，勇敢地做自己", "记者问，你人生中喜欢并做过这么多东西，但是都没有做大，你怎么想？  KK 回答，我只是追随自己的兴趣，不管什么事情，只要我觉得有意思，就想去做。","如果给我再来一次的机会，我绝对不会提前进组"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFade 为 true 生效
     descFontSize: '1.2rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
     descFadeInTime: 200,  // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
     descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
