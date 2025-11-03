@@ -25,6 +25,6 @@ module.exports = {
   plugins,
   markdown: {
     lineNumbers: true,
-    extractHeaders: ["h1","h2", "h3", "h4"]
+    extractHeaders: ["h2", "h3", "h4"]
   }
 }
