@@ -42,6 +42,18 @@ export default <UserPlugins>[
       zIndex: 999999999, // z-index property of the canvas, default: 999999999
     }
   ],
+  
+  [
+    'vuepress-plugin-mathjax',
+    {
+      target: 'svg',
+      macros: {
+        '*': '\\times',
+      },
+    },
+  ],
+
+
 
   //网站动态标题
   ['dynamic-title', {
